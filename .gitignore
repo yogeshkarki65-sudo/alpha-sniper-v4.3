@@ -1,0 +1,32 @@
+# Environment & secrets
+.env
+*.env
+.env.backup
+
+# Python virtual environment
+venv/
+.venv/
+
+# Logs and outputs
+*.log
+logs/
+nohup.out
+output.log
+v4_bot.log
+bot.log
+
+# Temporary artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local debug / experiments
+main.py.backup
+main_v2.py
+show_current_performance.py
+
+# Runtime data
+positions.json
+open_positions.json
+data/
